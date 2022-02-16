@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "AAAA,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,IAAI;CACvB",
     "sources": [
-        "main.scss"
+        "../sass/main.scss"
     ],
     "names": [],
     "file": "main.css"
