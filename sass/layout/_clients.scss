@@ -1,6 +1,6 @@
 .clients {
   padding: 94px 0;
-  & .title {
+  &__title {
     font-weight: bold;
     font-size: 36px;
     line-height: 1.16;
@@ -9,16 +9,16 @@
     margin-bottom: 50px;
   }
 
-  & .list {
+  &__list {
     display: flex;
     justify-content: center;
   }
 
-  & .item:not(:last-child) {
+  &__item:not(:last-child) {
     margin-right: 30px;
   }
 
-  & .link {
+  &__link {
     display: flex;
     width: 170px;
     height: 92px;

@@ -4,11 +4,12 @@
 @import "./components/modal";
 @import "./components/container";
 @import "./components/title";
+@import "./components/logo";
+@import "./components/social";
 
 @import "./base/common";
 @import "./base/reset";
 
-@import "./layout/logo";
 @import "./layout/header";
 @import "./layout/hero";
 @import "./layout/advantages";
@@ -16,5 +17,4 @@
 @import "./layout/team";
 @import "./layout/clients";
 @import "./layout/footer";
-@import "./layout/join";
 @import "./layout/portfolio";

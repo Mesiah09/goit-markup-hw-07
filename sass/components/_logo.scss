@@ -6,12 +6,10 @@
   color: var(--accent-color);
   letter-spacing: 0.03em;
   margin-right: 94px;
-}
-
-.logo-header {
-  color: var(--logo-up-color);
-}
-
-.logo-footer {
-  color: var(--logo-down-color);
+  &__black {
+    color: var(--logo-up-color);
+  }
+  &__white {
+    color: var(--logo-down-color);
+  }
 }

@@ -1,17 +1,17 @@
 .advantages {
   padding-top: 94px;
-  & .list {
+  &__list {
     display: flex;
   }
-  & .item {
+  &__item {
     width: 270px;
   }
 
-  & .item:not(:last-child) {
+  &__item:not(:last-child) {
     margin-right: 30px;
   }
 
-  & .title {
+  &__title {
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
@@ -21,21 +21,20 @@
     margin-bottom: 10px;
   }
 
-  & .text {
+  &__text {
     font-size: 14px;
     line-height: 1.71;
 
     letter-spacing: 0.03em;
   }
-}
-
-.icon-box {
-  display: flex;
-  width: 270px;
-  height: 120px;
-  background-color: var(--secondary-bg-color);
-  border-radius: 4px;
-  margin-bottom: 30px;
-  justify-content: center;
-  align-items: center;
+  &__icon-box {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    background-color: var(--secondary-bg-color);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+  }
 }

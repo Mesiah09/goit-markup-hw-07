@@ -9,14 +9,14 @@
 
   padding-top: 200px;
   padding-bottom: 200px;
-  & .container {
+  &__container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
 
-  & .title {
+  &__title {
     color: var(--primary-bg-color);
     font-weight: 900;
     font-size: 44px;
@@ -28,7 +28,7 @@
     margin-bottom: 30px;
   }
 
-  & .button {
+  &__button {
     background: var(--accent-color);
     border-radius: 4px;
 
